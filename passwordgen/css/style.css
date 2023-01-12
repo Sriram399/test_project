@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:wght@200&family=Poppins:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: 400px;
+    color: blueviolet;
+}
+.container{
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  
+
+}
+.form-group{
+    width: 100%;
+    display: flex;
+    margin: 20px 5px;
+    gap: 10px;
+}
+button{
+    height: 30px;
+    background-color: black;
+    color: wheat;
+    width: auto;
+
+    
+}
